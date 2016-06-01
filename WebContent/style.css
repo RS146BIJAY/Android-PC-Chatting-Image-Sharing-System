@@ -1,0 +1,162 @@
+body{
+	background-color:#F5EFED;
+}
+
+.header
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:160px;
+	background-color:#3bb778;
+}
+#cp_img
+{
+	padding-top:20px;
+	margin:auto;
+	width:30%;
+}
+#chat
+{
+	padding-left:90px;
+}
+
+h1
+{
+	color:white;
+}
+
+.online_list
+{
+	list-style:none;
+}
+
+.chatbox
+{
+	position:relative;
+	top:163px;
+	left:0px;
+	bottom:0px;
+	width:300px;
+	background-color:white;
+	border: 1px solid #3bb778;
+}
+
+.chatbox ul li img
+{
+	margin-top:10px;
+	border-radius:50%;
+	margin-right:10px;
+}
+
+.chatbox ul li
+{
+	display: block;
+	padding-bottom:10px;
+	border-bottom: 1px solid #eee;
+}
+
+.chatbox .Users
+{
+	background-color:#3bb778;
+	border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    color:white;
+}
+
+.chatbox ul li .heading
+{
+	overflow:hidden;
+}
+
+#Message_List
+{
+	position:relative;
+	top:163px;
+	left:303px;
+	bottom:0px;
+	right:0px;
+}
+#Text_holder
+{
+	padding-left:5px;
+	position:fixed;
+	bottom:5px;
+	left:310px;
+	right:0px;
+	height:40px;
+}
+#input_message
+{
+  width: 80%;
+  height: 25px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#button_submit
+{
+	width:75px;
+	height:35px;
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	background: #3bb778;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#message_content
+{
+	position:relative;
+	left:303px;
+	top:-600px;
+	padding:10px 20px 115px;
+}
+
+#content_list
+{
+	list-style: none;
+    margin: 0;
+}
+
+#content_list img
+{
+	border-radius:50%;
+    width: 45px;
+    height: 45px;
+}
+
+.chat-body
+{
+	padding-bottom: 20px;
+	margin-left: 70px;
+  	background-color: #fff;
+  	position: relative;
+  	font-size: 15px;
+  	padding: 10px;
+  	width:70%;
+  	border: 1px solid #f1f5fc;
+  	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.chat-header
+{
+	padding-bottom: 5px;
+  	border-bottom: 1px solid #f1f5fc;
+}
+
+.left_item
+{
+	width:600px;
+}
